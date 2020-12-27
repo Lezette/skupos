@@ -31,7 +31,7 @@ const Navbar = () => {
           <span className="text-2xl cursor-pointer" onClick={() => setShow(!show)}>&#9776;</span>
         </div>
         {show && (
-        <div className="fixed right-0 p-4 top-0 h-full w-9/12 border-l border-gray-300 border-solid bg-skBlue">
+        <div className="fixed right-0 p-4 top-0 h-full w-9/12 border-l border-gray-300 border-solid bg-skBlue z-50">
           <div>
               <div className="text-3xl text-right text-gray-200 transition-all" onClick={() => setShow(!show)}>&times;</div>
             <ul>

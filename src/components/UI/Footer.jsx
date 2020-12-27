@@ -26,7 +26,7 @@ const Footer = () => {
                 <p className="font-bold">&#62;</p>
               </div>
             </div>
-            <div className="grid grid-cols-2 mx-3 md:mx-0 md:grid-cols-4 md:gap-10 gap-2 sm:col-span-3">
+            <div className="grid grid-cols-2 mx-4 md:mx-0 md:grid-cols-4 md:gap-10 gap-2 sm:col-span-3">
             <div className="">
               <p className="font-semibold text-xs">CONVENIENCE RETAIL</p>
               <ul className="font-light from-gray-300 text-xs">
@@ -72,10 +72,10 @@ const Footer = () => {
           <section className="text-xs font-medium flex sm:flex-row flex-col justify-between py-3 sm:pl-12">
           <div>
               <p className="sm:mr-8 sm:inline-block text-center sm:text-left">&copy; {year} SKUPOS. ALL RIGHTS RESERVED.</p>
-              <p className="inline-block sm:mr-4 mx-5 mt-2 sm:mt-0">TERMS</p>
+              <p className="inline-block mr-4 mx-20 sm:mx-0 mt-2 sm:mt-0">TERMS</p>
               <p className="inline-block mt-2 sm:mt-0">PRIVACY</p>
           </div>
-          <div className="flex justify-end">
+          <div className="flex sm:justify-end justify-center">
             <img src={facebook} className="w-4 mr-5" alt="facebook" />
             <img src={twitter} className="w-4 mr-5" alt="facebook" />
             <img src={linkedin} className="w-4 mr-5" alt="facebook" />
