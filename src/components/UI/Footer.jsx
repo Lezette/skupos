@@ -70,9 +70,9 @@ const Footer = () => {
             </div>
           </section>
           <section className="text-xs font-medium flex sm:flex-row flex-col justify-between py-3 sm:pl-12">
-          <div>
-              <p className="sm:mr-8 sm:inline-block text-center sm:text-left">&copy; {year} SKUPOS. ALL RIGHTS RESERVED.</p>
-              <p className="inline-block mr-4 mx-20 sm:mx-0 mt-2 sm:mt-0">TERMS</p>
+          <div className="mb-3 sm:mb-0">
+              <p className="sm:mr-8 inline-block text-center sm:text-left ml-4 sm:ml-0">&copy; {year} SKUPOS. ALL RIGHTS RESERVED.</p>
+              <p className="inline-block mx-4 sm:mr-4 mt-2 sm:mt-0">TERMS</p>
               <p className="inline-block mt-2 sm:mt-0">PRIVACY</p>
           </div>
           <div className="flex sm:justify-end justify-center">
