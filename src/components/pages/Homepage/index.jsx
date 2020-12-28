@@ -12,7 +12,7 @@ const Homepage = () => {
   return (
     <>
     <Navbar />
-    <main>
+    <main className="font-lota">
       <Hero />
       <HeroOverlay />
       <Intro />
