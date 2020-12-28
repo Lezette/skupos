@@ -23,6 +23,9 @@ module.exports = {
         '10xl': ['3.875rem', '67px'],
         'big': ['42px', '54px'],
       },
+      fontFamily: {
+        'lota': ['Lota Grotesque'],
+      },
     },
   },
   variants: {
