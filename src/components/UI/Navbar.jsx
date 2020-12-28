@@ -6,7 +6,7 @@ const Navbar = () => {
   const [show, setShow] = useState(false);
   return (
     <>
-    <nav className="py-5 px-1 pl-5 text-sm w-full bg-skYellow border-b border-grey border-solid border-opacity-10 hidden md:flex justify-between items-center">
+    <nav className="py-5 px-1 font-lota pl-5 text-sm w-full bg-skYellow border-b border-grey border-solid border-opacity-10 hidden md:flex justify-between items-center">
       <ul>
         {menus.map((menu) => (
           <li className="inline-block mx-3 font-medium"><a href="./">{menu}</a></li>
@@ -23,7 +23,7 @@ const Navbar = () => {
         </li>
       </ul>
     </nav>
-    <nav className="p-8 w-full bg-skYellow border-grey border-opacity-10 border-b border-solid md:hidden flex justify-between items-center">
+    <nav className="p-8 w-full font-lota bg-skYellow border-grey border-opacity-10 border-b border-solid md:hidden flex justify-between items-center">
         <div>
           <img src={logo} alt="Logo" />
         </div>
