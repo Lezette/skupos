@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="py-5 px-1 font-lota pl-5 text-sm w-full bg-skYellow border-b border-grey border-solid border-opacity-10 hidden md:flex justify-between items-center">
       <ul>
         {menus.map((menu) => (
-          <li className="inline-block mx-3 font-medium"><a href="./">{menu}</a></li>
+          <li className="inline-block mx-3 font-medium" key={menu}><a href="./">{menu}</a></li>
         ))}
         
       </ul>

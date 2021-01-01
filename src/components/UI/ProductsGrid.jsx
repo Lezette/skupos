@@ -4,9 +4,9 @@ import { grid1 } from '../constants';
 const ProductsGrid = ({ more }) => {  
   return (
     <>
-      <section className="grid md:grid-cols-3 gap-10 grid-cols-1 w-10/12 m-auto my-10 sm:grid-cols-2">
-        {grid1.map(grid => (
-        <div className="mb-14">
+      <section className="grid lg:grid-cols-3 gap-10 grid-cols-1 w-10/12 m-auto my-10 sm:grid-cols-2">
+        {grid1.map((grid, i) => (
+        <div className="mb-14" key={i}>
           <div className="h-sm bg-gray-800">
             <img src={grid.image} alt="Grid" className="h-sm w-full" />
           </div>
